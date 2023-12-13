@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  overflow-x: hidden;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bgclass {
+  position: relative;
+  
+  overflow: hidden;  
+  /* z-index: 2; */
+  background: url('./assets/bgcard.png');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  backdrop-filter: blur(200px) ,url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABtJREFUeNpiZGBgaGAgAjAxEAlGFVJHIUCAAQDcngCUgqGMqwAAAABJRU5ErkJggg==');
+}
+
+.person{
+  background: url('./assets/person.png');
+}
